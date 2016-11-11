@@ -1,5 +1,5 @@
 $(function() {
     $('button').click(function(){
-        $('h1').toggleClass('mark');
+        $('h1').hide(3000);
     });
 });
