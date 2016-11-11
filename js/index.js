@@ -1,5 +1,5 @@
 $(function() {
     $('button').click(function(){
-        $('h1').hide(3000);
+        $('h1').toggle(3000);
     });
 });
